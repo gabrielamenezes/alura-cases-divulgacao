@@ -1,9 +1,6 @@
-import Link from 'next/link'
+import HomeScreen from '../src/screens/HomeScreen'
 export default function HomePage() {
     return (
-        <div>
-            <h1>home page</h1>
-            <Link href="/faq">ir para faq</Link>
-        </div>
+        <HomeScreen />
     )
 }
