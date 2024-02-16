@@ -1,4 +1,5 @@
 'use client'
+import Head from 'next/head';
 import Footer from '../../components/patterns/Footer/Footer'
 import Link from 'next/link'
 import { theme } from '../../theme/theme';
@@ -22,6 +23,7 @@ function SideImage() {
         }
       }}
     >
+      
       <Box
         styleSheet={{
           top: 0,
